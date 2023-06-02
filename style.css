@@ -28,6 +28,8 @@
        transform: relate(360deg);
    }
 
+   
+
 
 
  
@@ -42,13 +44,4 @@
         font-family: 'Inter', sans-serif;
      }
 
-     .mob{
-        flex-direction: column;
-        transition: 1s;
-     }
-
-    .mob:hover{
-        background-color: salmon;
-        transform: relate(360deg);
-    }
  }
