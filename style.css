@@ -1,0 +1,54 @@
+    body{background-color: pink;
+    }
+    h1{
+       color: black;
+       font-weight: normal;
+    }
+
+    .mob{
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+    }
+    .f{
+        background-color: orange;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .v{
+        background-color: olivedrab;
+        padding: 10px;
+        margin: 5px;
+        transition: 1s;
+    }
+
+   .mob:hover{
+       background-color: salmon;
+       transform: relate(360deg);
+   }
+
+
+
+ 
+ 
+ @media  screen and (max-width:480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:ital,wght@1,300&display=swap');
+    body{background-color: #000;
+     }
+    h1{
+        color: yellow;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+     }
+
+     .mob{
+        flex-direction: column;
+        transition: 1s;
+     }
+
+    .mob:hover{
+        background-color: salmon;
+        transform: relate(360deg);
+    }
+ }
